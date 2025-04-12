@@ -131,12 +131,12 @@ let persona= {
     telefono: 3223427352,
     email:"moncadadaniel198@gmail.com",
     edad:25,
-    nombrecompleto: function (){
+    nombrecompleto1: function (){
         return this.nombre  + ' ' + this.apellido}
     
     }
 console.log(persona)
-console.log(persona.nombrecompleto())
+console.log(persona.nombrecompleto1())
 
 for (nombrepropiedad in persona){
     console.log(nombrepropiedad)
@@ -163,15 +163,18 @@ console.log(persona3)
 
 
 
-function Persona (nombre="juan", apellido,email){
-    this.nombre = nombre
-    this.apellido = apellido
-    this.email = email
-    this.nombrecompleto = function (){
-        return this.nombre + ' ' + this.apellido	
+function Persona(nombre = "Juan", apellido, email) {
+    this.nombre = nombre;
+    this.apellido = apellido;
+    this.email = email;
+    this.nombrecompleto = function () {
+        return this.nombre + ' ' + this.apellido;
     }
-} 
-console.log(nombrecompleto())
+}
+ 
+console.log(Persona);
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
 
 let padre = new Persona ()
 console.log(padre)
