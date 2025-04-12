@@ -157,12 +157,6 @@ console.log(persona3)
 
 
 
-
-
-
-
-
-
 function Persona(nombre = "Juan", apellido, email) {
     this.nombre = nombre;
     this.apellido = apellido;
@@ -244,4 +238,5 @@ function foo(){
     return bar
 }
 
-console.log(foo()())
+console.log(foo()()) 
+ 
