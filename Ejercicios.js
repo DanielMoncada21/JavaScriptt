@@ -244,4 +244,4 @@ function foo(){
     return bar
 }
 
-console.log()
+console.log(foo()())
