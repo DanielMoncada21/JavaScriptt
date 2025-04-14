@@ -50,7 +50,10 @@ console.log(resultado)
 let resultado2=(1>2) ? " verdadero ":0;
 console.log(resultado2)
 let numero=10
-resultado=(numero%2==0) ? " par ":" impar ";
+resultado=(numero %2 == 
+    
+    
+    0) ? " par ":" impar ";
 console.log(resultado)
 
 let a1=11
@@ -239,4 +242,6 @@ function foo(){
 }
 
 console.log(foo()()) 
+
+//////////////////////////////////////////////////////////
  
